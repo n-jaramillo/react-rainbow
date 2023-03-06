@@ -18,7 +18,7 @@ function App() {
 
   return (
     <div className="App">
-      {colorMap}
+      <div style={{"margin-bottom": "120px"}}>{colorMap}</div>
       <ColorForm addColor={addColor} />
     </div>
   );
